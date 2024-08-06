@@ -1,0 +1,115 @@
+/* debe tener al menos 2 selectores que hagan referencia a elementos a traves de su id #id */
+/*debe haber al menos una imagen*/
+/*el codigo css debe contener al menos 3 selectores que hagan referencia a clases .clase*/
+
+body {
+    background-image: url(gradientefondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: auto;
+}
+
+
+hr{
+    width: 70%;
+}
+
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+}
+
+
+h1{ 
+    font-size: 260%;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+h1.hover-text{
+    font-size: 50px;
+    transition: letter-spacing 0.3s ease-in-out;
+}
+
+h1.hover-text:hover{
+    letter-spacing: 8px;
+    text-decoration: wavy;
+}
+
+h3{ 
+    font-size: 160%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+td:hover{
+    transform: scale(1.05);
+    background-size: 110%;
+    font-stretch: expanded;
+}
+
+
+#hobbies{
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    color: rgb(0, 0, 0);
+    font-size:x-large;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 0.3s, background-size 0.3s;
+    overflow: hidden;
+} 
+
+#acuarela{
+    background-image: url(cactusacua.jpeg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+#plantas{
+    background-image: url(plantita.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+#explorar{
+    background-image: url(parque_rodo.jpg);
+    opacity: 0.5; 
+    background-size: cover;
+}
+
+#juegos{
+    background-image: url(catan.jpg);
+    opacity: 0.5; 
+    background-size: cover;
+}
+
+#manga{
+    background-image: url(sunny.jpeg);
+    opacity: 0.5; 
+    background-size: cover;
+}
+
+#pelis{
+    background-image: url(chihiro.jpg);
+    opacity: 0.5; 
+    background-size: cover;
+}
+
+
+
